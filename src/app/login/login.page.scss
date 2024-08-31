@@ -1,0 +1,98 @@
+// Fondo con gradiente
+.login-background {
+    --background: linear-gradient(45deg, #1A141A, #E59312);
+  }
+  
+  // Contenedor del formulario
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  // Estilo de la tarjeta
+  ion-card {
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+  }
+  
+  // Estilo del encabezado de la tarjeta
+  ion-card-header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  // Estilo del título y subtítulo de la tarjeta
+  ion-card-title {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #1A141A;
+  }
+  
+  ion-card-subtitle {
+    color: #E59312;
+    font-size: 1.1em;
+  }
+  
+  // Estilo del botón de login
+  .login-button {
+    margin-top: 20px;
+    --border-radius: 25px;
+    --background: #F4B315;
+    --color: #1A141A;
+    --padding-start: 16px;
+    --padding-end: 16px;
+    font-size: 1em;
+    --border-width: 2px;
+    --border-color: #1A141A;
+    --border-style: solid;
+  }
+  
+  // Estilo de los ítems del formulario
+  ion-item {
+    --highlight-height: 2px;
+    --highlight-background: #F4B315;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    background-color: #F9F9F9;
+  }
+  
+  // Estilo de los inputs
+  ion-input {
+    border-radius: 12px;
+    --padding-start: 12px;
+  }
+  
+  // Estilo de las etiquetas
+  ion-label {
+    color: #E59312;
+  }
+  
+  // Estilo de la opción de registro
+  .signup-option {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-option p {
+    color: #1A141A; // Texto negro
+  }
+  
+  .signup-option a {
+    color: #F4B315; // Enlace en color amarillo
+    text-decoration: none;
+    font-weight: bold; // Negrita para mayor visibilidad
+  }
+  
+  // Alinear todo en el centro
+  .signup-option p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
