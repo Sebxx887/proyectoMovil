@@ -1,9 +1,9 @@
-// Fondo con gradiente
+
 .login-background {
     --background: linear-gradient(45deg, #1A141A, #E59312);
   }
   
-  // Contenedor del formulario
+
   .login-container {
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
     padding: 20px;
   }
   
-  // Estilo de la tarjeta
+
   ion-card {
     width: 100%;
     max-width: 400px;
@@ -21,13 +21,13 @@
     background-color: #FFFFFF;
   }
   
-  // Estilo del encabezado de la tarjeta
+
   ion-card-header {
     text-align: center;
     padding: 20px;
   }
   
-  // Estilo del título y subtítulo de la tarjeta
+
   ion-card-title {
     font-size: 1.6em;
     font-weight: bold;
@@ -39,7 +39,7 @@
     font-size: 1.1em;
   }
   
-  // Estilo del botón de login
+
   .login-button {
     margin-top: 20px;
     --border-radius: 25px;
@@ -53,7 +53,7 @@
     --border-style: solid;
   }
   
-  // Estilo de los ítems del formulario
+
   ion-item {
     --highlight-height: 2px;
     --highlight-background: #F4B315;
@@ -62,34 +62,33 @@
     background-color: #F9F9F9;
   }
   
-  // Estilo de los inputs
+
   ion-input {
     border-radius: 12px;
     --padding-start: 12px;
   }
-  
-  // Estilo de las etiquetas
+
   ion-label {
     color: #E59312;
   }
   
-  // Estilo de la opción de registro
+
   .signup-option {
     text-align: center;
     margin-top: 20px;
   }
   
   .signup-option p {
-    color: #1A141A; // Texto negro
+    color: #1A141A; 
   }
   
   .signup-option a {
-    color: #F4B315; // Enlace en color amarillo
+    color: #F4B315; 
     text-decoration: none;
-    font-weight: bold; // Negrita para mayor visibilidad
+    font-weight: bold; 
   }
   
-  // Alinear todo en el centro
+
   .signup-option p {
     display: flex;
     justify-content: center;
